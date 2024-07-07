@@ -1,0 +1,75 @@
+.first-div {
+    text-align: center;
+}
+
+.input-note {
+    width: 300px;
+    height: 20px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 6px;
+    border-style: solid;
+    padding-left: 4px;
+    /* border-color: rgb(144, 189, 248); */
+    /* cursor: pointer; */
+}
+
+.input-note:focus {
+    border-color: rgb(144, 189, 248);
+}
+
+.tab-button {
+    height: 25px;
+    width: 50px;
+    border-radius: 6px;
+    border-style: solid;
+    border-width: thin;
+    background-color: rgb(144, 189, 248);
+    color: white;
+    font-weight: bold;
+    /* border-color: white; */
+    border: none;
+    cursor: pointer;
+}
+
+.notes{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgb(71, 71, 71);
+    /* max-width: 0px; */
+}
+
+.oneMoreDiv {
+    display: flex;
+    align-items: center;
+    border-color: rgb(187, 187, 187);
+    border-style: solid;
+    border-width:thin;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+.buttonEdit {
+    font-size: 16px;
+    height: 30px;
+    width: 32px;
+    border-radius: 30px;
+    border-style: solid;
+    border-width: thin;
+    background-color: rgb(144, 189, 248);
+    color: white;
+    border-color: rgb(144, 189, 248);
+    margin-right: 20px;
+}
+
+.buttonEdit:hover{
+    background-color: white;
+    color: rgb(144, 189, 248);
+    border-color: black;
+}
